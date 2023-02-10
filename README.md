@@ -45,6 +45,11 @@ _Content of the repository_ :
         - Data - CSV files for testing 
         - LogisticRegression1.jl
         - LogisticRegression2.jl
+     * Genetic algorithm :
+        - example1 - implementing a genetic algorithm for a simple example
+        - example2 - implementation of a genetic algorithm for the solution of a function
+        - example3 - analysis of different cases of genetic algorithm
+        - example4 - the knapsack problem solved by genetic algorithm
 
 * Most of the literature and knowledge comes from :
     - **prof. dr. Aleksandar Erdeljan**
