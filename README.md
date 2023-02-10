@@ -36,7 +36,15 @@ _Content of the repository_ :
   6. Dynamic programming :
       * DynamicProgramming.jl
       * main.jl - testing functions before and after applying dynamic programming
-
+  7. Machine Learning in Julia :
+     * Linear regression :
+        - Data - CSV files for testing 
+        - KFoldCrossValidation.jl
+        - LinearRegression.jl
+     * Logistic regression :
+        - Data - CSV files for testing 
+        - LogisticRegression1.jl
+        - LogisticRegression2.jl
 
 * Most of the literature and knowledge comes from :
     - **prof. dr. Aleksandar Erdeljan**
@@ -63,4 +71,20 @@ Pkg.add("Statistics");
 Pkg.add("Polynomials");
 Pkg.add("Plots");
 Pkg.add("Test");
+```
+
+_These packages are required for the folder Machine Learning in Julia_
+```
+using Pkg;
+Pkg.add("GLM");
+Pkg.add("StatsModels");
+Pkg.add("DataFrames");
+Pkg.add("CSV");
+Pkg.add("Lathe");
+Pkg.add("Plots");
+Pkg.add("MLBase");
+Pkg.add("StatsBase");
+
+# Copy this and run in the command prompt Julia
+# ] add https://github.com/diegozea/ROC.jl
 ```
