@@ -50,10 +50,12 @@ _Content of the repository_ :
         - example2 - implementation of a genetic algorithm for the solution of a function
         - example3 - analysis of different cases of genetic algorithm
         - example4 - the knapsack problem solved by genetic algorithm
-
-* Most of the literature and knowledge comes from :
-    - **prof. dr. Aleksandar Erdeljan**
-    - **prof. dr. Darko Čapko**
+    * Particle Swarm Optimization :
+        - example1 - implementing the particle swarm optimization for a simple example
+        - example2 - implementation the particle swarm optimization for the solution of a function
+    * Ant Colony Optimization :
+        - example1 - implementing the ant colony optimization for a simple example
+        - example2 - solving the traveling salesman problem using ant colony optimization 
 
 ## Getting started
 1) Download and Install Julia : https://julialang.org/downloads
@@ -92,4 +94,10 @@ Pkg.add("StatsBase");
 
 # Copy this and run in the command prompt Julia
 # ] add https://github.com/diegozea/ROC.jl
+```
+
+_These packages are required for the folder Ant Colony Optimization_
+```
+using Pkg;
+Pkg.add("StatsBase");
 ```
