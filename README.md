@@ -37,25 +37,28 @@ _Content of the repository_ :
       * DynamicProgramming.jl
       * main.jl - testing functions before and after applying dynamic programming
   7. Machine Learning in Julia :
-     * Linear regression :
+      * Linear regression :
         - Data - CSV files for testing 
         - KFoldCrossValidation.jl
         - LinearRegression.jl
-     * Logistic regression :
+      * Logistic regression :
         - Data - CSV files for testing 
         - LogisticRegression1.jl
         - LogisticRegression2.jl
-     * Genetic algorithm :
+      * Genetic algorithm :
         - example1 - implementing a genetic algorithm for a simple example
         - example2 - implementation of a genetic algorithm for the solution of a function
         - example3 - analysis of different cases of genetic algorithm
         - example4 - the knapsack problem solved by genetic algorithm
-    * Particle Swarm Optimization :
+      * Particle Swarm Optimization :
         - example1 - implementing the particle swarm optimization for a simple example
         - example2 - implementation the particle swarm optimization for the solution of a function
-    * Ant Colony Optimization :
+      * Ant Colony Optimization :
         - example1 - implementing the ant colony optimization for a simple example
         - example2 - solving the traveling salesman problem using ant colony optimization 
+      * Data preparation :
+        - Data - CSV files for testing 
+        - main.jl - example of a data preparation
 
 ## Getting started
 1) Download and Install Julia : https://julialang.org/downloads
@@ -100,4 +103,18 @@ _These packages are required for the folder Ant Colony Optimization_
 ```
 using Pkg;
 Pkg.add("StatsBase");
+```
+
+_These packages are required for the folder Data preparation_
+```
+using Pkg;
+Pkg.add("PlotlyJS");
+Pkg.add("ORCA");
+Pkg.add("Statistics");
+Pkg.add("StatsModels");
+Pkg.add("DataFrames");
+Pkg.add("CSV");
+Pkg.add("Plots");
+Pkg.add("StatsBase");
+Pkg.add("StatsPlots");  
 ```
