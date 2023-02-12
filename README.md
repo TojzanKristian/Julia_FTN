@@ -12,6 +12,8 @@ _Content of the repository_ :
       * QuiskSort.jl
       * MergeSort.jl
       * HeapSort.jl
+      * CountingSort.jl
+      * RadixSort.jl
       * main.jl - testing sorting algorithms
   4. Algorithms for strings :
       * CaesarCipher.jl
@@ -23,7 +25,7 @@ _Content of the repository_ :
         - Rabin-Karp.jl
       * main.jl - testing algorithms for strings
   5. Graphs :
-      * Graph.jl - graph implementation and algorithm testing
+      * Graph.jl - graph implementation and algorithms testing
       * BreadthFirstSearch.jl
       * DepthFirstSearch.jl
       * DirectedAcyclicGraph.jl
@@ -38,11 +40,12 @@ _Content of the repository_ :
       * main.jl - testing functions before and after applying dynamic programming
   7. Machine Learning in Julia :
       * Linear regression :
-        - Data - CSV files for testing 
+        - Data - CSV files for testing
         - KFoldCrossValidation.jl
         - LinearRegression.jl
+        - OneHotEncoder.jl
       * Logistic regression :
-        - Data - CSV files for testing 
+        - Data - CSV files for testing
         - LogisticRegression1.jl
         - LogisticRegression2.jl
       * Genetic algorithm :
@@ -56,9 +59,10 @@ _Content of the repository_ :
       * Ant Colony Optimization :
         - example1 - implementing the ant colony optimization for a simple example
         - example2 - solving the traveling salesman problem using ant colony optimization 
-      * Data preparation :
-        - Data - CSV files for testing 
-        - main.jl - example of a data preparation
+  8. Data preparation :
+      * Data - CSV files for testing
+      * main.jl - example of a data preparation
+      * main1.jl - another example of a data preparation
 
 ## Getting started
 1) Download and Install Julia : https://julialang.org/downloads
