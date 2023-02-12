@@ -9,6 +9,8 @@ include("SelectionSort.jl");
 include("QuickSort.jl");
 include("MergeSort.jl");
 include("HeapSort.jl");
+include("CountingSort.jl");
+include("RadixSort.jl");
 
 # EXAMPLES :
 
@@ -90,4 +92,30 @@ heapSort!(G);
 println("Afer sort:");
 println(G);
 println("The execution time of Heap Sort is: $(@elapsed heapSort!(G))");
+println();println();
+
+
+# example 7:    - Counting Sort testing  testiranje Counting Sorta (Counting Sort tesztelése):
+H = [6, 7, 8, 7, 2, 1, 4, 9, 12];
+println("Counting Sort testing:");
+println("Before sort:");
+println(H);
+B = zeros(typeof(H[1]), length(H));
+B = countingSort(H, B, length(A));
+println("Afer sort:");
+println(B);
+println("The execution time of Counting Sort is: $(@elapsed countingSort(H, B, length(A)))");
+println();println();
+
+
+# example 8:    - Radix Sort testing  testiranje Radix Sorta (Radix Sort tesztelése):
+I = [170, 45, 75, 90, 802, 24, 2, 66];
+println("Radix Sort testing:");
+println("Before sort:");
+println(I);
+B = zeros(typeof(I[1]), length(I));
+B = radixSort(I);
+println("Afer sort:");
+println(B);
+println("The execution time of Radix Sort is: $(@elapsed radixSort(I))");
 println();println();
