@@ -63,6 +63,9 @@ _Content of the repository_ :
       * Data - CSV files for testing
       * main.jl - example of a data preparation
       * main1.jl - another example of a data preparation
+  9. Modeling and simulation of the system :
+      * Translational mechanical systems
+      * Rotational mechanical systems
 
 ## Getting started
 1) Download and Install Julia : https://julialang.org/downloads
@@ -121,4 +124,12 @@ Pkg.add("CSV");
 Pkg.add("Plots");
 Pkg.add("StatsBase");
 Pkg.add("StatsPlots");  
+```
+
+_These packages are required for the folder Modeling and simulation of the system_
+```
+using Pkg;
+Pkg.add("LinearAlgebra");
+Pkg.add("DifferentialEquations");
+Pkg.add("Plots");
 ```
