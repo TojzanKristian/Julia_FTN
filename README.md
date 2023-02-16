@@ -64,8 +64,13 @@ _Content of the repository_ :
       * main.jl - example of a data preparation
       * main1.jl - another example of a data preparation
   9. Modeling and simulation of the system :
-      * Translational mechanical systems
-      * Rotational mechanical systems
+      * Translational mechanical systems :
+        - simpleExamples.jl
+        - complexExamples.jl
+      * Rotational mechanical systems :
+        - main.jl
+      * Discretization of linear state space models :
+        - main.jl
 
 ## Getting started
 1) Download and Install Julia : https://julialang.org/downloads
@@ -132,4 +137,5 @@ using Pkg;
 Pkg.add("LinearAlgebra");
 Pkg.add("DifferentialEquations");
 Pkg.add("Plots");
+Pkg.add("ControlSystems");
 ```
