@@ -146,3 +146,9 @@ Pkg.add("DifferentialEquations");
 Pkg.add("Plots");
 Pkg.add("ControlSystems");
 ```
+
+**Solution to the package problem** - make sure the latest version of the package is installed :
+```
+using Pkg;
+Pkg.update("package name");
+```
