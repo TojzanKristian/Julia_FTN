@@ -71,11 +71,18 @@ _Content of the repository_ :
         - main.jl
       * Discretization of linear state space models :
         - main.jl
+      * Tasks with electrical schemes :
+        - basicConcepts.jl
+        - main.jl
+      * Algebra of the transfer function :
+        - main.jl
+      * Systems described by block diagrams :
+        - main.jl
 
 ## Getting started
 1) Download and Install Julia : https://julialang.org/downloads
 2) Download and Install VS Code : https://code.visualstudio.com/download
-3) Open the Julia extension on the VS Code Marketplace and press Install; or manually install by doing the following steps:
+3) Open the Julia extension on the VS Code Marketplace and press Install; or manually install by doing the following steps :
     * Start VS Code.
     * Inside VS Code, go to the Extensions view by clicking View on the top menu bar and then selecting Extensions.
     * In the Extensions view, search for the term "julia" in the Marketplace search box, then select the Julia extension (julialang.language-julia) and select the Install button.
